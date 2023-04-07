@@ -1,0 +1,29 @@
+html {
+    font-family: arial;
+    font-size: 18px;
+}
+
+td {
+    border: 1px solid #726E6D;
+    padding: 15px;
+}
+
+thead {
+    font-weight: bold;
+    text-align: center;
+    background: #625D5D;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.footer {
+    text-align: right;
+    font-weight: bold;
+}
+
+tbody>tr:nth-child(odd) {
+    background: #D1D0CE;
+}
